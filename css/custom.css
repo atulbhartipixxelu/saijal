@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap') h1, h2, h3, h4, h5, h6, p {
-	font-family: "Open Sans", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
 
+h1, h2, h3, h4, h5, h6, p {
+	font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -805,7 +806,7 @@ a.cv {
   cursor: pointer;
 }
 button.open-btn {
-    background: #3835322b;
+    background: red;
     padding: 0 14px;
     border-radius: 7px;
     border: 1px solid;
@@ -818,37 +819,4 @@ button.open-btn {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
