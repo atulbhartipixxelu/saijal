@@ -1,0 +1,304 @@
+@media only screen and (max-width:767px) {
+.container {
+   max-width: 100%!important;
+}
+ h1 {
+    font-size: 31px!important;
+    line-height: 27px!important;
+}
+p {
+    font-size: 13px !important;
+}
+h2 {
+    font-size: 25px!important;
+    font-weight: 800;
+    text-align: center;
+}
+h3 {
+    font-size: 21px!important;
+}
+/***herobanner-section***/
+.sidebar {
+    width: 227px!important;
+}
+.col-md-8:nth-child(2) {
+    width: 76%;
+    order: 2;
+}
+.col-md-4:nth-child(1) {
+    width: 20%;
+}
+.row .col-md-5:nth-child(1) {
+    width: 40%;
+    order: 2;
+}
+
+.row .col-md-7:nth-child(2) {
+    width: 60%;
+}
+
+
+.logo-section {
+    padding: 9px 0 7px 0;
+}
+
+.navbar-light .navbar-toggler {
+    background: #c7c4c4 !important;
+    padding: 5px 19px;
+}
+.lodedicatedgo img {
+    width: 215px;
+    float: left;
+}
+.banner-section {
+    margin-top: 52px;
+}
+li.nav-item {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid #9b9b9b5e;
+}
+.ilor p {
+    font-size: 13px!important;
+    margin-left: 10%;
+    margin-top: 20px;
+    line-height: 22px;
+}
+.banner h1 {
+    line-height: 49px!important;
+}
+.banner p {
+    text-align: center;
+    line-height: 24px;
+    font-size: 13px !important;
+}
+.herobanner img {
+    width: 349px;
+}
+.col-md-4 {
+    order: 2;
+}
+img.fhkj {
+    width: 64px;
+    margin-top: 45px;
+}
+.pasnate .col-md-5:nth-child(2) {
+    width: 70%;
+}
+
+.pasnate .col-md-4:nth-child(3) {
+    width: 30%;
+}
+
+.banner img {
+
+    display: none;
+}
+img.edgh {
+    top: -34px;
+    margin-left: 58%;
+    display: block;
+}
+button.hel {
+    font-size: 12px;
+    padding: 7px 25px 3px 25px;
+}
+.banner h1 {
+    line-height: 39px!important;
+    margin: 0;
+} 
+.logo_items img {
+    width: 118px;
+    margin-left: 0px;
+    padding-right: 1px;
+    margin-right: 0px;
+}
+.logos {
+    padding: 12px 0px;
+
+}
+/***herobanner-section***/
+/***about-section***/
+.about-section {
+    padding-top: 54px;
+    margin-top: 34px;
+    margin-bottom: 13px;
+    padding: 1px 15px;
+}
+img.vert-move {
+   width: 31px;
+    margin-left: 5px;
+
+}
+img.success.vert-move {
+    right: -9px;
+    top: 86%;
+    width: 31px;
+}
+/***about-section***/
+
+/***service-section***/
+
+.banner h2 {
+    font-weight: 800;
+    text-align: center;
+}
+p.amet {
+    text-align: center;
+    line-height: 21px;
+}
+.conetur {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+
+
+.lacus {
+     width: 100%;
+    padding: 14px 0 82% 0;
+  
+}
+.conetur img {
+    width: 361px;
+}
+.adicing .col-md-4:nth-child(3) {
+    width: 100%;
+} 
+.service-section {
+    background: #000;
+    margin-top: 20px;
+    padding: 38px 13px;
+}
+/***service-section***/
+
+
+
+/***Project-section***/
+button.project {
+    float: left;
+}
+.slider {
+    padding: 0px 0px;
+}
+
+
+button.cancelbtn {
+    margin-left: -95px;
+    top: 9px;
+    padding: 7px 30px;
+    font-size: 13px;
+}
+input[type="text"] {
+    padding: 11px 0 11px 57px;
+    width: 95%;
+}
+.form i {
+    padding: 11px 11px;
+    font-size: 13px;
+    margin-left: 7px;
+    top: 7px;
+}
+.form {
+    margin-top: 43px;
+}
+.Project-section {
+    padding: 34px 15px 0 15px;
+}
+.wrapper {
+ 
+   height: 43%;
+    padding: 8px 15px;
+}
+button.project {
+   
+    padding: 10px 13px;
+    font-size: 13px;
+
+   
+    margin-top: 14px;
+}
+.Project-section h1.banner {
+    font-size: 22px !important;
+    line-height: 29px !important;
+    margin-top: 7px;
+}
+.slider__item {
+    padding: 0px 0px;
+}
+.slider .slick-arrow.slick-prev {
+    background: url(../images/previous.png) 0 0 / 94% no-repeat;
+    top: 91%;
+    left: 71%;
+}
+.slider .slick-arrow.slick-next {
+    top: 91%;
+    background: url(../images/next.png) 0 0 / 94% no-repeat;
+    right: 34px;
+}
+.lacus-autook {
+    padding: 5px 0;
+}
+.logo_itemss img {
+    width: 112px;
+    margin-left: 5px;
+    padding-right: 4px;
+    margin-right: 0px;
+}
+.wrapper {
+    padding: 8px 0px;
+}
+/***Project-section***/
+
+
+
+
+
+
+/***footerfooter-section***/
+ul.social.account li i {
+    padding: 8px 9px;
+
+    font-size: 16px;
+}
+.lodedidgo p {
+    font-size: 13px !important;
+    width: 83%;
+    margin-top: 17px;
+    line-height: 26px;
+}
+.footer-links ul li {
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer-links ul li b {
+    font-size: 13px;
+}
+
+.footer-links h4 {
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 23px!important;
+    margin-top: 26px;
+}
+.footer-links ul li a {
+    font-size: 13px;
+}
+.footer-links h4 {
+    font-weight: 600;
+    line-height: 17px;
+    font-size: 22px!important;
+    margin-top: 7px;
+}
+/***footer-section***/
+
+
+
+
+
+
+
