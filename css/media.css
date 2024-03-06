@@ -47,17 +47,22 @@ h3 {
     padding: 5px 19px;
 }
 .lodedicatedgo img {
-    width: 215px;
+    width: 189px;
     float: left;
 }
 .banner-section {
-    margin-top: 52px;
+    margin-top: 0px;
 }
-li.nav-item {
-    text-transform: capitalize;
+.menu a {
+ 
+    padding: 27px 9px 1px 19px;
     font-size: 16px;
-    font-weight: 700;
-    border-bottom: 2px solid #9b9b9b5e;
+}
+
+.prect img {
+    width: 54%;
+    border-radius: 16px;
+    box-shadow: 0 0 4px #787878;
 }
 .ilor p {
     font-size: 13px!important;
@@ -81,7 +86,7 @@ li.nav-item {
 }
 img.fhkj {
     width: 64px;
-    margin-top: 45px;
+    margin-top: 0;
 }
 .pasnate .col-md-5:nth-child(2) {
     width: 70%;
@@ -96,9 +101,9 @@ img.fhkj {
     display: none;
 }
 img.edgh {
-    top: -34px;
-    margin-left: 58%;
-    display: block;
+    top: -21px;
+    margin-left: 6%;
+    display: none;
 }
 button.hel {
     font-size: 12px;
@@ -224,7 +229,7 @@ button.project {
 .Project-section h1.banner {
     font-size: 22px !important;
     line-height: 29px !important;
-    margin-top: 7px;
+    margin-top: 20px;
 }
 .slider__item {
     padding: 0px 0px;
@@ -293,6 +298,10 @@ ul.social.account li i {
     line-height: 17px;
     font-size: 22px!important;
     margin-top: 7px;
+}
+
+.footer-links {
+    margin-top: 24px;
 }
 /***footer-section***/
 

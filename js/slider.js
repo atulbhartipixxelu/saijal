@@ -54,15 +54,15 @@ $(document).ready(function (brandSlider) {
 
 
 /***sidebar**/
-document.querySelector('.open-btn').addEventListener('click', function() {
-  document.querySelector('.sidebar').style.width = '250px';
-  document.querySelector('.content').style.marginLeft = '250px';
+$(document).ready(function() {
+  $(".hide").click(function() {
+    $(".menu").hide();
+  });
+  $(".show").click(function() {
+    $(".menu").show();
+  });
 });
 
-document.querySelector('.close-btn').addEventListener('click', function() {
-  document.querySelector('.sidebar').style.width = '0';
-  document.querySelector('.content').style.marginLeft = '0';
-});
 
 
 /***sidebar**/
