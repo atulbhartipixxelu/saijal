@@ -738,7 +738,7 @@ body button.slick-next.slick-arrow:before {
 }
 .fa-square-whatsapp:before, .fa-whatsapp-square:before {
     content: "\f40c";
-    font-size: 48px;
+    font-size: 38px;
     color: green;
 }
 
@@ -758,7 +758,7 @@ body button.slick-next.slick-arrow:before {
 }
 .fa-skype:before {
     content: "\f17e";
-    font-size: 48px;
+    font-size: 38px;
     color: #3fc1ff;
 }
 .menu {
@@ -781,6 +781,7 @@ body button.slick-next.slick-arrow:before {
     color: #000000;
     display: block;
     transition: 0.3s;
+    text-transform: capitalize;
     text-align: left;
     font-weight: 500;
 }
@@ -824,8 +825,43 @@ body button.slick-next.slick-arrow:before {
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
-
-
-
-
 }
+
+/***about***/
+.abut h1 {
+    text-align: left!important;
+}
+
+.abut p {
+    text-align: left!important;
+}
+.abut-section {
+    border-bottom: 3px solid #ddd;
+    padding: 36px 0px;
+    margin-bottom: 35px;
+}
+.banr p {
+    margin-top: 43px;
+    font-size: 16px!important;
+}
+.banr img {
+    position: absolute;
+    top: 42%;
+    width: 30px;
+    margin-left: 57px;
+    margin-top: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
