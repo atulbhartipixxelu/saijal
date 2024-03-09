@@ -2,8 +2,8 @@
 .container {
    max-width: 100%!important;
 }
- h1 {
-    font-size: 31px!important;
+h1 {
+    font-size: 26px!IMPORTANT;
     line-height: 27px!important;
 }
 p {
@@ -47,11 +47,13 @@ h3 {
     padding: 5px 19px;
 }
 .lodedicatedgo img {
-    width: 189px;
+    width: 197px;
     float: left;
+    height: 47px;
 }
 .banner-section {
     margin-top: 0px;
+    padding: 0 15px;
 }
 .menu a {
  
@@ -306,8 +308,93 @@ ul.social.account li i {
 /***footer-section***/
 
 
+/****project***/
+.Showcase-section {
+    padding: 30px 15px 0 15px;
+}
+
+.link-section {
+    padding: 0 15px;
+}
+.mfkjkj {
+    margin-top: 68px;
+    padding: 0 0 7px 0;
+    border-bottom: 2px solid;
+    margin-bottom: 35px;
+}
+.mfkjkj img {
+    width: 100%;
+    border-radius: 8px;
+    height: 189px;
+}
+.Design h4 {
+    font-size: 16px;
+}
+.Design h3 {
+    font-size: 14px!important;
+   
+}
+.bottom {
+   
+    width: 73%!important;
+    padding: 16px 4px;
+    margin-left: 12%;
+}
+a.Portf {
+    font-size: 13px;
+    padding: 10px 16px 10px 11px;
+}
+a.contact{
+    font-size: 13px;
+    padding: 10px 16px 10px 11px;
+}
+/****project***/
+
+.abut-section {
+    padding: 0 15px!important;
+}
+.visually-section {
+    padding: 15px 15px;
+}
+.banr img {
+   
+    display: none;
+}
+.banr p {
+    margin-top: 22px;
+    font-size: 13px!important;
+    line-height: 30px;
+}
+
+.dedicated a {
+
+    font-size: 16px;
+}
+.ui-ux {
+    display: block;
+    
+}
+.experiences-section {
+    PADDING: 0 15px;
+}
+.ui-ux p {
+
+    line-height: 30px;
+    width: 98%;
+}
+.ui-ux h3 {
+    font-size: 20px;
+    width: 71%;
+}
 
 
 
 
 
+
+
+
+
+
+
+}

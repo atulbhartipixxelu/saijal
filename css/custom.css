@@ -41,6 +41,14 @@ body {
 
 /***logo-section***/
 
+.banner-section {
+    margin-top: 0px;
+    background-image: url(../images/about-banner.png);
+    padding: 53px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
 .slider__item img {
     width: 100%;
     border-radius: 11px;
@@ -153,11 +161,6 @@ img.fhkj {
     margin-top: 41%;
 }
 
-.banner-section {
-    margin-top: 0px;
-    background: #FFF1E7;
-    padding: 53px 0px;
-}
 
 /***logo-section***/
 
@@ -870,8 +873,7 @@ body button.slick-next.slick-arrow:before {
 
 /***about***/
 .abut-section {
-    padding: 20px 0 79px 1px!important;
-   
+    padding: 5px 0 11px 1px!important;
 }
 .abut h1 {
     text-align: left!important;
@@ -947,7 +949,6 @@ body button.slick-next.slick-arrow:before {
 }
 
 
-/***visually-section*/
 
 .follow-section {
     margin-top: 50px;
@@ -968,4 +969,34 @@ body button.slick-next.slick-arrow:before {
     font-weight: 700;
     font-size: 21px;
 }
+.visually-section {
+    margin-top: 0px;
+    background-image: url(../images/about-banner.png);
+    padding: 53px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+/***visually-section*/
 
+
+
+/**** MY PROJECTS PAGE****/
+
+.mfkjkj img {
+    width: 100%;
+    border-radius: 8px;
+}
+.mfkjkj {
+    margin-top: 68px;
+}
+.Design h4 {
+    font-weight: 800;
+}
+.mfkjkj {
+    margin-top: 68px;
+    padding: 0 0 35px 0;
+    border-bottom: 2px solid;
+
+}
+/**** MY PROJECTS PAGE****/
