@@ -870,19 +870,14 @@ body button.slick-next.slick-arrow:before {
 
 /***about***/
 .abut-section {
-    padding: 86px 0 79px 1px!important;
-    background-repeat: no-repeat;
-    background-image: url(../images/silhouettes-.jpg);
-    background-size: cover;
-    background-position: center;
+    padding: 20px 0 79px 1px!important;
+   
 }
 .abut h1 {
     text-align: left!important;
-    color: #fff;
 }
 .abut p {
     text-align: left!important;
-    color: #fff;
 
 }
 
@@ -894,7 +889,7 @@ body button.slick-next.slick-arrow:before {
 }
 .banr img {
     position: absolute;
-    top: 69%;
+    top: 60%;
     width: 30px;
     margin-left: 41px;
     margin-top: 21px;
