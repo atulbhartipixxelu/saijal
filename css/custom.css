@@ -857,11 +857,17 @@ body button.slick-next.slick-arrow:before {
     float: right;
 }
 .prect img {
-    width: 29%;
-    border-radius: 21px;
-    float: left;
-    box-shadow: 0 0 4px #ffffff;
-    padding: 5px 4px;
+    width: 100%;
+    padding: 0px 1px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 45px;
+    box-shadow: 0 0 8px #6158585e;
+    height: 383px;
+}
+.bac.img {
+    display: flex;
+    float: right;
 }
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
@@ -1000,3 +1006,4 @@ body button.slick-next.slick-arrow:before {
 
 }
 /**** MY PROJECTS PAGE****/
+

@@ -15,7 +15,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-size: 21px!important;
+    font-size: 20px!important;
 }
 /***herobanner-section***/
 .sidebar {
@@ -53,7 +53,22 @@ h3 {
 }
 .banner-section {
     margin-top: 0px;
-    padding: 0 15px;
+    padding: 34px 15px;
+}
+.banner img {
+    width: 27px;
+    top: -29px;
+    margin-left: 0;
+    left: 15px;
+}
+img.edgh {
+    top: -11px;
+    width: 18px;
+    left: 65%;
+}
+.Design p {
+
+    font-size: 14px !important;
 }
 .menu a {
  
@@ -76,9 +91,11 @@ h3 {
     line-height: 49px!important;
 }
 .banner p {
-    text-align: center;
-    line-height: 24px;
-    font-size: 13px !important;
+    text-align:  center;
+    line-height: 22px;
+    font-size:   13px !important;
+    margin-top:  4%;
+    
 }
 .herobanner img {
     width: 349px;
@@ -87,8 +104,9 @@ h3 {
     order: 2;
 }
 img.fhkj {
-    width: 64px;
+    width: 58px;
     margin-top: 0;
+    margin-left: 68px;
 }
 .pasnate .col-md-5:nth-child(2) {
     width: 70%;
@@ -98,18 +116,12 @@ img.fhkj {
     width: 30%;
 }
 
-.banner img {
 
-    display: none;
-}
-img.edgh {
-    top: -21px;
-    margin-left: 6%;
-    display: none;
-}
 button.hel {
     font-size: 12px;
     padding: 7px 25px 3px 25px;
+    margin-bottom: 14px;
+    
 }
 .banner h1 {
     line-height: 39px!important;
@@ -191,10 +203,8 @@ button.project {
 .slider {
     padding: 0px 0px;
 }
-
-
 button.cancelbtn {
-    margin-left: -95px;
+    margin-left: -102px;
     top: 9px;
     padding: 7px 30px;
     font-size: 13px;
@@ -331,22 +341,34 @@ ul.social.account li i {
     font-size: 16px;
 }
 .Design h3 {
-    font-size: 14px!important;
-   
+    font-size: 13px!important;
 }
 .bottom {
-   
-    width: 73%!important;
-    padding: 16px 4px;
-    margin-left: 12%;
+    width: 55%!important;
+    padding: 10px 4px;
+    margin-left: 0%;
+    text-align: left;
+    margin-top: 7px!important;
 }
 a.Portf {
-    font-size: 13px;
-    padding: 10px 16px 10px 11px;
+    font-size: 12px;
+    padding: 7px 14px 7px 15px;
+    font-weight: 400;
+}
+a.Portf:hover {
+   
+    font-size: 12px;
+    font-weight: 400;
+}
+a.contact:hover {
+    font-size: 12px;
+    font-weight: 400;
 }
 a.contact{
-    font-size: 13px;
-    padding: 10px 16px 10px 11px;
+    font-size: 12px;
+    padding: 7px 14px 7px 15px;
+    font-weight: 400;
+
 }
 /****project***/
 
@@ -378,14 +400,47 @@ a.contact{
     PADDING: 0 15px;
 }
 .ui-ux p {
-
-    line-height: 30px;
+    line-height: 22px;
     width: 98%;
 }
 .ui-ux h3 {
-    font-size: 20px;
     width: 71%;
+    font-size: 16px!important;
 }
+
+.d-flex {
+    display: flex!important;
+}
+
+.d-flex img {
+    width: 14px;
+    height: 14px;
+
+}
+.d-flex h3 {
+    font-weight: 500;
+    font-size: 18px!important;
+}
+.ui-ux img {
+    width: 20px;
+}
+
+.col-md-3:nth-child(1) {
+    width: 0;
+}
+
+.col-md-4:nth-child(3) {
+    width: 24%;
+}
+
+.col-md-5:nth-child(2) {
+    width: 80%;
+}
+
+
+
+
+
 
 
 
