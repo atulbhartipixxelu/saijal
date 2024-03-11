@@ -70,17 +70,44 @@ img.edgh {
 
     font-size: 14px !important;
 }
-.menu a {
- 
-    padding: 27px 9px 1px 19px;
-    font-size: 16px;
+a.effect-underline {
+    padding: 23px 2px 3px 11px;
+    font-size: 14px;
+}
+a.effect-underline:after {
+    content: '';
+    position: absolute;
+    right: 15%;
+    display: inline-block;
+    height: 67px;
+    width: 11%;
+    border-bottom: 4px solid #fd6f00;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    transition: 1s;
+
+}
+.menu {
+    padding: 76px 15px;
+}
+.bac.img {
+    display: block;
+   
+    text-align: left;
+}
+.prect img {
+    width: 61%;
+    border-radius: 16px;
+    box-shadow: 0 0 3px #787878;
+    height: 121px;
+    margin-bottom: 18px;
 }
 
-.prect img {
-    width: 54%;
-    border-radius: 16px;
-    box-shadow: 0 0 4px #787878;
-}
+
 .ilor p {
     font-size: 13px!important;
     margin-left: 10%;
@@ -136,6 +163,11 @@ button.hel {
 .logos {
     padding: 12px 0px;
 
+}
+.ppers {
+    float: right;
+    display: block;
+    width: 38%;
 }
 /***herobanner-section***/
 /***about-section***/
@@ -436,9 +468,6 @@ a.contact{
 .col-md-5:nth-child(2) {
     width: 80%;
 }
-
-
-
 
 
 

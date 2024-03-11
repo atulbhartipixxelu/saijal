@@ -152,8 +152,8 @@ button.hel {
 
 img.edgh {
     width: 23px;
-    top: -20px;
-    left: 54%;
+    top: -26px;
+    left: 61%;
 }
 
 img.fhkj {
@@ -815,29 +815,30 @@ body button.slick-next.slick-arrow:before {
     padding-top: 60px;
     text-align: center;
 }
-.menu a {
+a.effect-underline {
     text-decoration: none;
-    padding: 35px 95px 1px 36px;
-    font-size: 18px;
+    padding: 29px 4px 18px 11px;
+    font-size: 37px;
     color: #000000;
     display: block;
     transition: 0.3s;
     text-transform: capitalize;
-    text-align: left;
     font-weight: 500;
+    text-align: left;
+    margin-left: 22%;
 }
-  .menu a:hover {
-	color: #fd6f00;
-	;
-  }
-  .menu .closebtn {
+a.effect-underline:hover {
+   color: #fd6f00
+
+}
+.menu .closebtn {
     position: absolute;
-    top: 0;
-    right: 22px;
+    top: 18px;
+    right: 21px;
     font-size: 39px;
     margin-left: 33px;
-    padding: 0 18px;
-    border-radius: 42px;
+    padding: 0 19px;
+    border-radius: 10px;
     color: #ffffff;
     background: #fd6f00;
     border: 1px;
@@ -852,27 +853,68 @@ body button.slick-next.slick-arrow:before {
 	border-radius:8px;
   }
 
+/*effect-underline*/
+a.effect-underline:after {
+    content: '';
+    position: absolute;
+    right: 6%;
+    display: inline-block;
+    height: 49px;
+    width: 7%;
+    border-bottom: 4px solid #fd6f00;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
 
-.acor {
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.ppers {
     float: right;
+    display: block;
+    width: 18%;
 }
 .prect img {
-    width: 100%;
-    padding: 0px 1px;
+    width: 96%;
+    padding: 8px 8px;
     border-radius: 10px;
     border: 1px solid #fff;
-    margin-bottom: 45px;
-    box-shadow: 0 0 8px #6158585e;
-    height: 383px;
+    margin-bottom: 58px;
+    box-shadow: 0 0 8px #c7c7c75e;
+    height: 437px;
+    object-fit: cover;
+    background: #ffffff;
 }
 .bac.img {
     display: flex;
-    float: right;
 }
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
