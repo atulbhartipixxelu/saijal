@@ -75,10 +75,9 @@ body {
 }
 .bottom {
     text-align: center;
-  
     border: 1px solid;
     width: 26%!important;
-    padding: 13px 21px;
+    padding: 18px 21px;
     border-radius: 40px;
     margin-left: 33%;
     margin-top: 28px!important;
@@ -87,8 +86,8 @@ a.Portf i {
     margin-left: 8px;
 }
 a.Portf:hover {
-    background: #FD6F00;
-    color: #fff;
+    background: #ffffff00!important;
+    color: #000;
     font-size: 16px;
 }
 a.contact:hover {
@@ -98,11 +97,12 @@ a.contact:hover {
 }
 a.Portf {
     text-decoration: none;
-    color: #000;
     font-weight: 700;
     font-size: 16px;
     border-radius: 81px;
-    padding: 10px 29px 10px 25px;
+    padding: 11px 29px 10px 25px;
+    background: #FD6F00!important;
+    color: #fff;
 }
 a.contact {
     text-decoration: none;
@@ -932,7 +932,7 @@ a.effect-underline:hover:after {
 }
 .banr img {
     position: absolute;
-    top: 60%;
+    top: 35%;
     width: 30px;
     margin-left: 41px;
     margin-top: 21px;
@@ -1040,6 +1040,8 @@ a.effect-underline:hover:after {
     border-bottom: 2px solid;
 
 }
-
+.link-section {
+    margin-bottom: 50px;
+}
 /**** MY PROJECTS PAGE****/
 
