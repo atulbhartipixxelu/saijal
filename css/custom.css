@@ -1040,6 +1040,8 @@ a.effect-underline:hover:after {
     border-bottom: 2px solid;
 
 }
-
+.link-section {
+    margin-bottom: 50px;
+}
 /**** MY PROJECTS PAGE****/
 
