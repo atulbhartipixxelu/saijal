@@ -79,9 +79,9 @@ a.effect-underline:after {
     position: absolute;
     right: 15%;
     display: inline-block;
-    height: 67px;
+    height: 17px;
     width: 11%;
-    border-bottom: 4px solid #fd6f00;
+    border-bottom: 3px solid #fd6f00;
     margin-top: 10px;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -89,7 +89,9 @@ a.effect-underline:after {
     -webkit-transform: scale(0,1);
     transform: scale(0,1);
     transition: 1s;
-
+}
+.banner {
+    margin-bottom: 0px;
 }
 .menu {
     padding: 76px 15px;
@@ -133,7 +135,7 @@ a.effect-underline:after {
 img.fhkj {
     width: 58px;
     margin-top: 0;
-    margin-left: 68px;
+    margin-left: 35px;
 }
 .pasnate .col-md-5:nth-child(2) {
     width: 70%;
@@ -200,11 +202,8 @@ p.amet {
     line-height: 21px;
 }
 .conetur {
-    text-align: center;
-    position: relative;
     width: 100%;
-    margin-top: 35px;
-    margin-bottom: 36px;
+    margin-bottom: 55px;
 }
 
 
@@ -214,15 +213,23 @@ p.amet {
   
 }
 .conetur img {
-    width: 361px;
+    width: 378px;
 }
 .adicing .col-md-4:nth-child(3) {
     width: 100%;
 } 
 .service-section {
     background: #000;
-    margin-top: 20px;
-    padding: 38px 13px;
+    margin-top: 19px;
+    padding: 74px 15px;
+}
+div#Project\.html  .col-md-6:nth-child(2) {
+    width: 50%;
+}
+
+div#Project\.html .col-md-6:nth-child(1) {
+    width: 50%;
+    margin-bottom: 31px;
 }
 /***service-section***/
 
@@ -258,17 +265,16 @@ input[type="text"] {
     padding: 34px 15px 0 15px;
 }
 .wrapper {
- 
    height: 43%;
     padding: 8px 15px;
 }
 button.project {
-   
-    padding: 10px 13px;
-    font-size: 13px;
-
-   
-    margin-top: 14px;
+    padding: 10px 25px;
+    font-size: 12px;
+    margin: 0;
+}
+div#Project\.html .row {
+    align-items: flex-start;
 }
 .Project-section h1.banner {
     font-size: 22px !important;
@@ -382,15 +388,15 @@ ul.social.account li i {
     font-size: 13px!important;
 }
 .bottom {
-    width: 55%!important;
-    padding: 10px 4px;
+    width: 59%!important;
+    padding: 12px 4px 14px 3px;
     margin-left: 0%;
     text-align: left;
     margin-top: 7px!important;
 }
 a.Portf {
     font-size: 12px;
-    padding: 7px 14px 7px 15px;
+    padding: 7px 14px 8px 17px;
     font-weight: 400;
 }
 a.Portf:hover {
@@ -402,11 +408,10 @@ a.contact:hover {
     font-size: 12px;
     font-weight: 400;
 }
-a.contact{
+a.contact {
     font-size: 12px;
-    padding: 7px 14px 7px 15px;
+    padding: 7px 18px 7px 21px;
     font-weight: 400;
-
 }
 /****project***/
 
