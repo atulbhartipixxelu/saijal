@@ -201,16 +201,18 @@ p.amet {
     text-align: center;
     line-height: 21px;
 }
-.conetur {
-    width: 100%;
-    margin-bottom: 55px;
-}
+
 
 
 .lacus {
      width: 100%;
     padding: 14px 0 82% 0;
   
+}
+.conetur {
+  
+    margin-top: 53px;
+    margin-bottom: 50px;
 }
 .conetur img {
     width: 378px;
@@ -269,7 +271,7 @@ input[type="text"] {
     padding: 8px 15px;
 }
 button.project {
-    padding: 10px 25px;
+    padding: 7px 22px;
     font-size: 12px;
     margin: 0;
     margin-bottom: 64px;
@@ -280,7 +282,7 @@ div#Project\.html .row {
 .Project-section h1.banner {
     font-size: 22px !important;
     line-height: 29px !important;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .slider__item {
     padding: 0px 0px;
@@ -389,7 +391,7 @@ ul.social.account li i {
     font-size: 13px!important;
 }
 .bottom {
-    width: 59%!important;
+    width: 67%!important;
     padding: 12px 4px 14px 3px;
     margin-left: 0%;
     text-align: left;
