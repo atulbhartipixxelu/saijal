@@ -215,7 +215,7 @@ p.amet {
     margin-bottom: 50px;
 }
 .conetur img {
-    width: 378px;
+    width: 353px;
 }
 .adicing .col-md-4:nth-child(3) {
     width: 100%;
@@ -285,7 +285,7 @@ div#Project\.html .row {
     margin-top: 50px;
 }
 .slider__item {
-    padding: 0px 0px;
+    padding: 22px 0px;
 }
 .slider .slick-arrow.slick-prev {
     background: url(../images/previous.png) 0 0 / 94% no-repeat;
@@ -391,7 +391,7 @@ ul.social.account li i {
     font-size: 13px!important;
 }
 .bottom {
-    width: 67%!important;
+    width: 63%!important;
     padding: 12px 4px 14px 3px;
     margin-left: 0%;
     text-align: left;
