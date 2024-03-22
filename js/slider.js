@@ -68,6 +68,11 @@ $(document).ready(function() {
 /***sidebar**/
 
 
+AOS.init({
+  duration: 1200,
+})
+
+
 
 
 

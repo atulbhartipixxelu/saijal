@@ -21,23 +21,20 @@ h3 {
 .sidebar {
     width: 227px!important;
 }
-.col-md-8:nth-child(2) {
-    width: 76%;
+
+.mainas {
+    width: 100%;
+    
+}
+.logo-sticky.-section .col-md-4:nth-child(1) {
+    width: 50%;
+}
+
+.logo-sticky.-section
+ .col-md-8:nth-child(2) {
+    width: 50%;
     order: 2;
 }
-.col-md-4:nth-child(1) {
-    width: 20%;
-}
-.row .col-md-5:nth-child(1) {
-    width: 40%;
-    order: 2;
-}
-
-.row .col-md-7:nth-child(2) {
-    width: 60%;
-}
-
-
 .logo-section {
     padding: 9px 0 7px 0;
 }
@@ -53,18 +50,42 @@ h3 {
 }
 .banner-section {
     margin-top: 0px;
-    padding: 34px 15px;
+    padding: 49px 15px  62px;
 }
 .banner img {
-    width: 27px;
-    top: -29px;
-    margin-left: 0;
-    left: 15px;
+    display: none;
+}
+.decated h1 {
+    font-weight: 700!important;
+    line-height: 34px!important;
+    margin-bottom: 26px;
 }
 img.edgh {
-    top: -11px;
     width: 18px;
-    left: 65%;
+    left: 43%;
+    top: 11%;
+}
+.banr {
+    width: 100%;
+}
+.banr p {
+    margin-top: 22px;
+    font-size: 13px!important;
+    line-height: 26px;
+    width: 100%;
+}
+.dedicated {
+    
+    margin-bottom: 20px;
+}
+.form a.fa-brands.fa-whatsapp {
+   
+    top: 8px;
+    font-size: 19px;
+    margin-left: 10px;
+    padding: 8px 8px;
+    height: 35px;
+    width: 35px;
 }
 .Design p {
 
@@ -109,22 +130,22 @@ a.effect-underline:after {
     margin-bottom: 18px;
 }
 
-
 .ilor p {
-    font-size: 13px!important;
-    margin-left: 10%;
-    margin-top: 20px;
+    width: 100%;
+    font-size: 13px !important;
     line-height: 22px;
+    margin: 0;
 }
 .banner h1 {
     line-height: 49px!important;
 }
 .banner p {
-    text-align:  center;
+    text-align: center;
     line-height: 22px;
-    font-size:   13px !important;
-    margin-top:  4%;
-    
+    font-size: 13px !important;
+    margin-top: 0%;
+    width: 100%;
+    margin: 0;
 }
 .herobanner img {
     width: 349px;
@@ -133,9 +154,7 @@ a.effect-underline:after {
     order: 2;
 }
 img.fhkj {
-    width: 58px;
-    margin-top: 0;
-    margin-left: 35px;
+    width: 85px;
 }
 .pasnate .col-md-5:nth-child(2) {
     width: 70%;
@@ -180,9 +199,8 @@ button.hel {
     padding: 1px 15px;
 }
 img.vert-move {
-   width: 31px;
-    margin-left: 5px;
-
+    width: 31px;
+    margin-left: -19px;
 }
 img.success.vert-move {
     right: -9px;
@@ -206,7 +224,6 @@ p.amet {
 
 .lacus {
      width: 100%;
-    padding: 14px 0 82% 0;
   
 }
 .conetur {
@@ -391,11 +408,10 @@ ul.social.account li i {
     font-size: 13px!important;
 }
 .bottom {
-    width: 63%!important;
     padding: 12px 4px 14px 3px;
-    margin-left: 0%;
-    text-align: left;
     margin-top: 7px!important;
+        left: 38;
+    }
 }
 a.Portf {
     font-size: 12px;
@@ -456,10 +472,11 @@ a.contact {
 
 .d-flex {
     display: flex!important;
+    margin: 8px auto;
 }
-
-.d-flex img {
-    display: none;
+.ervd h1 {
+    text-align: left!important;
+    line-height: 62px!important;
 }
 .d-flex h3 {
     font-weight: 500;
@@ -469,28 +486,12 @@ a.contact {
     display: none;
 }
 
-.col-md-3:nth-child(1) {
-    width: 0;
-}
 
-.col-md-4:nth-child(3) {
-    width: 24%;
-}
-
-.col-md-5:nth-child(2) {
-    width: 80%;
+.d-flex img {
+    width: 13px;
+    height: 13px;
+    margin-left: 11px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-}
