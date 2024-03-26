@@ -375,6 +375,7 @@ ul.social.account li i {
 }
 .footer-section {
     padding: 36px 16px;
+    overflow: hidden;
 }
 .follow-section {
     padding: 39px 16px;
