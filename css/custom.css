@@ -44,7 +44,7 @@ body {
 .banner-section {
     margin-top: 0px;
     background-image: url(../images/about-banner.png);
-    padding: 53px 0px;
+    padding: 85px 0px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -74,36 +74,22 @@ body {
 	width: 515px;
 }
 .bottom {
-    text-align: center;
-    border: 1px solid;
-    width: 26%!important;
-    padding: 18px 21px;
-    border-radius: 40px;
-    margin-left: 33%;
-    margin-top: 28px!important;
+    margin-top: 21px!important;
+    position: absolute;
+    left: 34%;
 }
 a.Portf i {
     margin-left: 8px;
 }
-a.Portf:hover {
-    background: #ffffff00!important;
-    color: #000;
-    font-size: 16px;
+.decated span {
+    color: #FD6F00;
 }
 a.contact:hover {
     background: #FD6F00;
     color: #fff;
     font-size: 16px;
 }
-a.Portf {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-    border-radius: 81px;
-    padding: 11px 29px 10px 25px;
-    background: #FD6F00!important;
-    color: #fff;
-}
+
 a.contact {
     text-decoration: none;
     color: #000;
@@ -111,19 +97,13 @@ a.contact {
     font-size: 16px;
     border-radius: 81px;
     padding: 12px 37px 10px 33px;
+    border: 1px solid;
 }
 .banner {
 	position: relative;
 }
 
-.banner img {
-    width: 38px;
-    position: absolute;
-    top: -58px;
-    text-align: center;
-    margin-left: 0;
-    left: -18px;
-}
+
 button.hel {
 	border: 1px solid;
 	padding: 4px 29px;
@@ -132,7 +112,11 @@ button.hel {
 	border-radius: 40px;
 	margin-bottom: 26px;
 }
-
+.decated h1 {
+    font-weight: 700!important;
+    line-height: 75px!important;
+    margin-bottom: 26px;
+}
 .banner {
 	position: relative;
 	text-align: center;
@@ -143,24 +127,37 @@ button.hel {
 }
 
 .banner p {
-	text-align: center;
-	width: 100%;
-	font-size: 15px !important;
-	margin-top: 10%;
-	line-height: 27px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px !important;
+    margin-top: 0%;
+    line-height: 36px;
+    width: 68%;
+    margin-left: 72px;
 }
-
+.banner img {
+    position: absolute;
+    width: 35px;
+    left: 18%;
+    top: -26%;
+}
 img.edgh {
+    position: absolute;
     width: 23px;
-    top: -26px;
-    left: 61%;
+    left: 45%;
+    top: 23%;
 }
-
 img.fhkj {
-    width: 96px;
-    margin-top: 41%;
+    width: 12%;
 }
-
+.mainas {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
 
 /***logo-section***/
 
@@ -464,17 +461,7 @@ input::placeholder {
 	color: #b6a5a5;
 }
 
-.form i {
-	background: #FFEAD5;
-	color: #fff;
-	padding: 14px 17px;
-	border-radius: 94px;
-	font-size: 20px;
-	margin-left: 9px;
-	position: absolute;
-	top: 7px;
-	color: #FD6F00;
-}
+
 .Project-section h1.banner {
     font-size: 58px !important;
     line-height: 85px !important;
@@ -645,7 +632,9 @@ button.button.show {
     text-align: center;
     padding: 5px;
 }
-
+div#footer-scroll .row {
+    align-items: flex-start;
+}
 
 
 
@@ -759,10 +748,8 @@ body button.slick-next.slick-arrow:before {
     color: #000;
     font-size: 16px !important;
     text-transform: capitalize;
-    font-weight: 800;
+    font-weight: 600;
 }
-
-
 .whtsp.sticky {
     position: fixed;
 }
@@ -818,7 +805,7 @@ body button.slick-next.slick-arrow:before {
 a.effect-underline {
     text-decoration: none;
     padding: 29px 4px 18px 11px;
-    font-size: 37px;
+    font-size: 33px;
     color: #000000;
     display: block;
     transition: 0.3s;
@@ -898,7 +885,19 @@ a.effect-underline:hover:after {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-
+.form a.fa-brands.fa-whatsapp {
+    position: absolute;
+    top: 13px;
+    font-size: 19px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 11px 8px;
+    border-radius: 85px;
+    background: #FD6F00;
+    height: 39px;
+    width: 40px;
+}
 
 
 
@@ -920,24 +919,30 @@ a.effect-underline:hover:after {
 
 
 /***about***/
+
+
+
+.banr {
+    width: 60%;
+    margin: 0 auto;
+}
 .abut-section {
     padding: 5px 0 11px 1px!important;
 }
 
 .banr p {
-    margin-top: 48px;
+    margin-top: 0;
     font-size: 18px!important;
-    line-height: 38px;
-
+    line-height: 36px;
+    width: 58%;
+    margin: 20px auto;
 }
 .banr img {
     position: absolute;
-    top: 35%;
-    width: 30px;
-    margin-left: 41px;
-    margin-top: 21px;
+    top: 26%;
+    width: 32px;
+    right: 62%;
 }
-
 
 .dedicated a {
     border-radius: 8px;
@@ -955,7 +960,6 @@ a.effect-underline:hover:after {
 
 /***visually-section*/
 .visually-section {
-    margin-bottom: 50px;
     margin-top: 50px;
 }
 .experiences-section {
@@ -966,10 +970,7 @@ a.effect-underline:hover:after {
     align-items: center;
     gap: 21px;
 }
-.ervd h1 {
-    text-align: left!important;
-    margin-bottom: 33px;
-}
+
 .ui-ux h3 {
     font-size: 21px;
     font-weight: 700;
@@ -1004,7 +1005,8 @@ a.effect-underline:hover:after {
     margin-left: 25px;
 }
 .d-flex {
-    margin-bottom: 27px;
+    display: flex!important;
+    margin: 28px auto;
 }
 .d-flex h3 {
     font-weight: 700;
