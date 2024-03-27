@@ -1,4 +1,5 @@
-@media only screen and (max-width:767px) {
+
+@media (max-width: 767px) {
 .container {
    max-width: 100%!important;
 }
@@ -411,9 +412,8 @@ ul.social.account li i {
 .bottom {
     padding: 12px 4px 14px 3px;
     margin-top: 7px!important;
-        left: 38;
-    }
-}
+    left: 38;
+ }
 a.Portf {
     font-size: 12px;
     padding: 7px 14px 8px 17px;
@@ -456,8 +456,7 @@ a.contact {
     font-size: 16px;
 }
 .ui-ux {
-    display: block;
-    
+    display: block!important;
 }
 .experiences-section {
     PADDING: 0 15px;
@@ -476,7 +475,6 @@ a.contact {
     margin: 8px auto;
 }
 .ervd h1 {
-    text-align: left!important;
     line-height: 62px!important;
 }
 .d-flex h3 {
@@ -496,3 +494,8 @@ a.contact {
 
 
 
+
+
+
+
+}
