@@ -847,7 +847,7 @@ a.effect-underline:after {
     right: 6%;
     display: inline-block;
     height: 49px;
-    width: 7%;
+    width: 8%;
     border-bottom: 4px solid #fd6f00;
     margin-top: 10px;
     opacity: 0;
@@ -977,6 +977,9 @@ a.effect-underline:hover:after {
     font-weight: 500;
     line-height: 37px;
     width: 55%;
+}
+.visually-section.aos-init.aos-animate {
+    padding: 60px 0px;
 }
 .ui-ux {
     display: flex !important;
