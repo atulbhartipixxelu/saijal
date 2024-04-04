@@ -76,7 +76,7 @@ body {
 .bottom {
     margin-top: 21px!important;
     position: absolute;
-    left: 34%;
+    left: 41%;
 }
 a.Portf i {
     margin-left: 8px;
@@ -125,26 +125,25 @@ button.hel {
 .banner span {
 	color: #FD6F00;
 }
-
 .banner p {
     text-align: center;
     width: 100%;
     font-size: 18px !important;
     margin-top: 0%;
     line-height: 36px;
-    width: 68%;
-    margin-left: 72px;
+    width: 79%;
+    margin-left: 121px;
 }
 .banner img {
     position: absolute;
     width: 35px;
-    left: 18%;
-    top: -26%;
+    left: 23%;
+    top: -34%;
 }
 img.edgh {
     position: absolute;
     width: 23px;
-    left: 45%;
+    left: 50%;
     top: 13%;
 }
 img.fhkj {
@@ -152,7 +151,7 @@ img.fhkj {
     margin-top: 32px;
 }
 .mainas {
-    width: 60%;
+    width: 45%;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -812,7 +811,7 @@ a.effect-underline {
     margin-left: 18%;
 }
 .d-flex {
-    gap: 56px;
+    gap: 21px;
 }
 a.effect-underline:hover {
    color: #fd6f00
@@ -932,18 +931,20 @@ a.effect-underline:hover:after {
 
 .banr p {
     margin-top: 0;
-    font-size: 18px!important;
-    line-height: 36px;
-    width: 58%;
-    margin: 20px auto;
+    font-size: 16px!important;
+    line-height: 30px;
+    width: 72%;
+    margin: 33px auto;
 }
 .banr img {
     position: absolute;
-    top: 26%;
+    top: 30%;
     width: 32px;
     right: 62%;
 }
-
+.ervd {
+    margin-bottom: 50px;
+}
 .dedicated a {
     border-radius: 8px;
     background: #FD6F00;
@@ -966,7 +967,9 @@ a.effect-underline:hover:after {
     margin-top: 50px;
 }
 
-
+.ui-ux img {
+    width: 17px;
+}
 .ui-ux h3 {
     font-size: 21px;
     font-weight: 700;
@@ -975,8 +978,9 @@ a.effect-underline:hover:after {
 .ui-ux p {
     text-align: left;
     font-weight: 500;
-    line-height: 37px;
+    line-height: 30px;
     width: 55%;
+    font-size: 16px !IMPORTANT;
 }
 .visually-section.aos-init.aos-animate {
     padding: 60px 0px;
@@ -991,9 +995,8 @@ a.effect-underline:hover:after {
 .ervd h1 {
     text-align: center!important;
     line-height: 55px!important;
-    margin-bottom: 28px;
+    margin-bottom: 41px;
 }
-
 
 .follow-section {
     margin-top: 50px;
@@ -1003,13 +1006,14 @@ a.effect-underline:hover:after {
     text-align: left!important;
 }
 .d-flex img {
-    width: 25px;
-    height: 25px;
-    margin-left: 25px;
+    width: 13px;
+    height: 13px;
+    margin-left: 0px;
 }
 .d-flex {
     display: flex!important;
-    margin: 28px auto;
+    margin: 11px auto;
+    
 }
 .d-flex h3 {
     font-weight: 700;

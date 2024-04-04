@@ -72,8 +72,7 @@ img.edgh {
 .banr p {
     margin-top: 22px;
     font-size: 13px!important;
-    line-height: 26px;
-    width: 100%;
+    line-height: 23px;
 }
 .dedicated {
     
@@ -438,8 +437,9 @@ a.contact {
 .abut-section {
     padding: 0 15px!important;
 }
-.visually-section {
-    padding: 15px 15px;
+
+.visually-section.aos-init.aos-animate {
+    padding: 33px 15px;
 }
 .banr img {
    
@@ -449,8 +449,8 @@ a.contact {
     margin-top: 22px;
     font-size: 13px!important;
     line-height: 30px;
+    width: 100%;
 }
-
 .dedicated a {
 
     font-size: 16px;
@@ -463,7 +463,11 @@ a.contact {
 }
 .ui-ux p {
     line-height: 22px;
-    width: 98%;
+    width: 100%;
+    font-size: 13px!important;
+}
+.d-flex {
+    gap: 1px;
 }
 .ui-ux h3 {
     width: 71%;
