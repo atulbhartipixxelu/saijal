@@ -35,7 +35,7 @@ body {
 
 .container {
 	max-width: 1240px !important;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -99,9 +99,7 @@ a.contact {
     padding: 12px 37px 10px 33px;
     border: 1px solid;
 }
-.banner {
-	position: relative;
-}
+
 
 
 button.hel {
@@ -118,8 +116,9 @@ button.hel {
     margin-bottom: 26px;
 }
 .banner {
-	position: relative;
-	text-align: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 78px;
 }
 
 .banner span {
@@ -360,7 +359,7 @@ p.amet {
 .lacus {
     border: 2px solid #bcbcbc;
     padding: 13px 0 0px 0;
-    border-radius: 29px;
+    border-radius: 30px;
     width: 100%;
 }
 
@@ -376,6 +375,7 @@ p.amet {
 
 .lacus img {
     width: 100%;
+    padding: 75px 0 0 0;
 }
 
 .lacus:hover {
@@ -414,10 +414,6 @@ button.project {
     padding: 34px 0;
 }
 
-input::placeholder {
-	font-size: 15px;
-	font-weight: 600;
-}
 
 .form {
 	text-align: center;
@@ -425,16 +421,6 @@ input::placeholder {
 	position: relative;
 }
 
-
-
-input[type="text"] {
-    padding: 17px 74px;
-    margin: 0;
-    border-radius: 99px;
-    width: 38%;
-    outline: none;
-    border: 2px solid #067006;
-}
 
 input::placeholder {
 	font-weight: 300;
@@ -713,7 +699,7 @@ body button.slick-next.slick-arrow:before {
 
 .Design h3 {
     color: #FD6F00;
-    font-size: 17px;
+    font-size: 17px!important;
     line-height: 29px;
     font-weight: 600;
     text-transform: capitalize;
@@ -1022,7 +1008,7 @@ a.effect-underline:hover:after {
 .mfkjkj img {
     width: 100%;
     border-radius: 8px;
-    height: 77%;
+    height: 342px;
     object-fit: contain;
 }
 .Design h4 {
@@ -1039,4 +1025,23 @@ a.effect-underline:hover:after {
     margin-bottom: 50px;
 }
 /**** MY PROJECTS PAGE****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
