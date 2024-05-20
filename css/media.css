@@ -221,19 +221,15 @@ p.amet {
 }
 
 
-
-.lacus {
-     width: 100%;
-  
-}
-.conetur {
-  
-    margin-top: 53px;
-    margin-bottom: 50px;
-}
-.conetur img {
+.lacus img {
     width: 100%;
+    margin-top: 50px;
 }
+.lacus {
+    width: 100%;
+    margin-top: 50px;
+}
+
 .adicing .col-md-4:nth-child(3) {
     width: 100%;
 } 

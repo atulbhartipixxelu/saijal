@@ -35,7 +35,7 @@ body {
 
 .container {
 	max-width: 1240px !important;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -99,9 +99,7 @@ a.contact {
     padding: 12px 37px 10px 33px;
     border: 1px solid;
 }
-.banner {
-	position: relative;
-}
+
 
 
 button.hel {
@@ -118,8 +116,9 @@ button.hel {
     margin-bottom: 26px;
 }
 .banner {
-	position: relative;
-	text-align: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 78px;
 }
 
 .banner span {
@@ -358,12 +357,13 @@ p.amet {
 
 
 .lacus {
-	border: 2px solid #bcbcbc;
-	padding: 14px 0 72% 0;
-	border-radius: 29px;
+    border: 2px solid #bcbcbc;
+    padding: 13px 0 0px 0;
+    border-radius: 30px;
+    width: 100%;
 }
 
-.conetur h3 {
+.lacus h3 {
     text-align: center;
     font-size: 19px;
     line-height: 13px;
@@ -372,17 +372,10 @@ p.amet {
     border-bottom: 2px solid #e6e6e6;
     padding: 18px 0;
 }
-.conetur {
-    text-align: center;
-    position: relative;
+
+.lacus img {
     width: 100%;
-    margin-top: 72px;
-}
-.conetur img {
-    width: 301px;
-    position: absolute;
-    top: 123px;
-    left: 1px;
+    padding: 75px 0 0 0;
 }
 
 .lacus:hover {
@@ -421,10 +414,6 @@ button.project {
     padding: 34px 0;
 }
 
-input::placeholder {
-	font-size: 15px;
-	font-weight: 600;
-}
 
 .form {
 	text-align: center;
@@ -432,28 +421,6 @@ input::placeholder {
 	position: relative;
 }
 
-button.cancelbtn {
-    position: absolute;
-    margin-left: -109px;
-    top: 8px;
-    background: #FD6F00;
-    border-radius: 44px;
-    padding: 11px 33px;
-    border: 0;
-    color: #fff;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 600;
-}
-
-input[type="text"] {
-	padding: 17px 74px;
-	margin: 0;
-	border-radius: 99px;
-	width: 38%;
-	outline: none;
-	border: 2px solid #6c6c6c6b;
-}
 
 input::placeholder {
 	font-weight: 300;
@@ -548,7 +515,10 @@ img.slide.logos {
     border-bottom: 3px solid #FD6F00;
     margin-top: 32px;
 }
-
+.erd h1 {
+    text-align: left!important;
+    margin-bottom: 20px;
+}
 /***lacus-autook-section***/
 /***footer-section***/
 ul.social.account li i {
@@ -559,8 +529,8 @@ ul.social.account li i {
     border: 1px solid;
 }
 .footer-section {
-    background-image: url(../images/BG-1.jpg);
-    padding: 47px 0px 21px;
+    background: #000;
+    padding: 60px 0px 21px;
 }
 .footer-links h4 {
     color: #ffff;
@@ -729,7 +699,7 @@ body button.slick-next.slick-arrow:before {
 
 .Design h3 {
     color: #FD6F00;
-    font-size: 17px;
+    font-size: 17px!important;
     line-height: 29px;
     font-weight: 600;
     text-transform: capitalize;
@@ -810,9 +780,7 @@ a.effect-underline {
     text-align: left;
     margin-left: 18%;
 }
-.d-flex {
-    gap: 21px;
-}
+
 a.effect-underline:hover {
    color: #fd6f00
 
@@ -886,16 +854,16 @@ a.effect-underline:hover:after {
 }
 .form a.fa-brands.fa-whatsapp {
     position: absolute;
-    top: 13px;
-    font-size: 19px;
+    top: 9px;
+    font-size: 22px;
     margin-left: 10px;
     text-decoration: none;
     color: #fff;
-    padding: 11px 8px;
+    padding: 12px 2px;
     border-radius: 85px;
-    background: #FD6F00;
-    height: 39px;
-    width: 40px;
+    background: green;
+    height: 45px;
+    width: 46px;
 }
 
 
@@ -993,7 +961,7 @@ a.effect-underline:hover:after {
     margin-bottom: 24px;
 }
 .ervd h1 {
-    text-align: center!important;
+    text-align: left !important;
     line-height: 55px!important;
     margin-bottom: 41px;
 }
@@ -1006,18 +974,23 @@ a.effect-underline:hover:after {
     text-align: left!important;
 }
 .d-flex img {
-    width: 13px;
-    height: 13px;
+    width: 21px;
+    height: 20px;
     margin-left: 0px;
 }
 .d-flex {
-    display: flex!important;
-    margin: 11px auto;
-    
+    gap: 21px;
+    align-items: center;
+}
+.fcghjk {
+    display: flex;
+    gap: 54px;
+    margin-bottom: 51px;
+    align-items: center;
 }
 .d-flex h3 {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 32px;
 }
 .visually-section {
     margin-top: 0px;
@@ -1035,7 +1008,7 @@ a.effect-underline:hover:after {
 .mfkjkj img {
     width: 100%;
     border-radius: 8px;
-    height: 77%;
+    height: 342px;
     object-fit: contain;
 }
 .Design h4 {
@@ -1052,4 +1025,23 @@ a.effect-underline:hover:after {
     margin-bottom: 50px;
 }
 /**** MY PROJECTS PAGE****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
