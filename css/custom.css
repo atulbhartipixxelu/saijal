@@ -984,9 +984,9 @@ a.effect-underline:hover:after {
 }
 .fcghjk {
     display: flex;
-    gap: 54px;
     margin-bottom: 51px;
     align-items: center;
+    justify-content: space-between;
 }
 .d-flex h3 {
     font-weight: 700;

@@ -393,13 +393,17 @@ ul.social.account li i {
     border-bottom: 2px solid;
     margin-bottom: 35px;
 }
-.mfkjkj img {
+.mfkjkj a img {
     width: 100%;
-    border-radius: 8px;
-    height: 189px;
+    height: 94px;
+    border-radius: 14px;
 }
 .Design h4 {
-    font-size: 16px;
+    font-size: 14px;
+}
+.Design {
+    margin-top: 25px;
+    padding: 0 0px;
 }
 .Design h3 {
     font-size: 13px!important;
@@ -463,37 +467,24 @@ a.contact {
     font-size: 13px!important;
 }
 .d-flex {
-    gap: 1px;
+    gap: 18px;
 }
 .ui-ux h3 {
     width: 71%;
     font-size: 16px!important;
 }
 
-.d-flex {
-    display: flex!important;
-    margin: 8px auto;
-}
+
 .ervd h1 {
     line-height: 62px!important;
 }
 .d-flex h3 {
     font-weight: 500;
-    font-size: 18px!important;
+    font-size: 14px!important;
 }
 .ui-ux img {
     display: none;
 }
-
-
-.d-flex img {
-    width: 13px;
-    height: 13px;
-    margin-left: 11px;
-}
-
-
-
 
 
 
